@@ -1,0 +1,61 @@
+*{
+  box-sizing:border-box;
+}
+body{
+margin:0;
+padding:0;
+}
+.menu{
+  border-radius:5px;
+  margin-right:10px;
+  margin-bottom:10px;
+}
+@media only screen and (max-width:575px){
+  .menu{
+  border-radius:5px;
+  margin-bottom:0px;
+}
+}
+#container {
+  border-radius:5px;
+  width: 80%;
+  background-color: #dddddd;
+}
+#icon{
+  font-size:50px;
+}
+#zaman {
+  border-radius:5px;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  transition:all 60s;
+  background-color:#dc3545;
+  width:0%;
+}
+.arkaplan{
+  background-color:#303233;
+}
+#dogru-btn{
+  display:none;
+}
+#sure{
+  font-size:50px;
+}
+.skor{
+  display:flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.puan{
+  font-size:60px;
+}
+#team1::after{
+  content:"-";
+  color:white;
+}
+li{
+  list-style-type:none;
+}
